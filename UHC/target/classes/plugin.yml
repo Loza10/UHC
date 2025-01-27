@@ -1,0 +1,154 @@
+name: UHC
+version: '1.0-SNAPSHOT'
+main: me.loza.uhc.UHC
+api-version: '1.21'
+authors: [ Keegle/Zakk ]
+description: A working UHC plugin.
+commands:
+  uhc:
+    description: View the current game config.
+    usage: /<command>
+    aliases:
+      - config
+  wg:
+    description: World generation logic.
+    usage: /<command>
+    aliases:
+      - worldgen
+    permission: uhc.worlds
+  pregen:
+    description: Pregenerate world.
+    usage: /<command>
+    aliases:
+      - pg
+    permission: uhc.pregen
+  pvp:
+    description: Toggle PVP either on/off.
+    usage: /<command>
+    permission: uhc.pvp
+  start:
+    description: Starts the match.
+    usage: /<command>
+    permission: uhc.start
+  freeze:
+    description: Freezes all players.
+    usage: /<command>
+    permission: uhc.freeze
+  gm:
+    description: Changes player gamemode
+    usage: /<command>
+    aliases:
+      - gamemode
+    permission: uhc.gamemode
+  gmc:
+    description: Changes player gamemode
+    usage: /<command>
+    permission: uhc.gamemode
+  gms:
+    description: Changes player gamemode
+    usage: /<command>
+    permission: uhc.gamemode
+  gma:
+    description: Changes player gamemode
+    usage: /<command>
+    permission: uhc.gamemode
+  gmsp:
+    description: Changes player gamemode
+    usage: /<command>
+    permission: uhc.gamemode
+  heal:
+    description: Heals players.
+    usage: /<command>
+    permission: uhc.heal
+  feed:
+    description: Feeds players.
+    usage: /<command>
+    permission: uhc.feed
+  ci:
+    description: Clears inventories.
+    usage: /<command>
+    permission: uhc.ci
+    aliases:
+      - clear
+      - clearinv
+  msg:
+    description: Message other players.
+    usage: /<command>
+    aliases:
+      - message
+      - tell
+      - w
+      - whisper
+  r:
+    description: Reply to other players.
+    usage: /<command>
+    aliases:
+      - reply
+  whitelist:
+    description: Handles the whitelist.
+    usage: /<command>
+    permission: uhc.whitelist
+    aliases:
+      - wl
+  xp:
+    description: Experience logic.
+    usage: /<command>
+    permission: uhc.xp
+    aliases:
+      - exp
+  chat:
+    description: Control the chat.
+    usage: /<command>
+    permission: uhc.chat
+  ac:
+    description: Send chats to admins on the server.
+    usage: /<command>
+    permission: uhc.adminchat
+    aliases:
+      - adminchat
+  shrink:
+    description: Shrinks a world border
+    usage: /<command>
+    permission: uhc.shrink
+    aliases:
+      - shrinkborder
+  fullbright:
+    description: Toggles fullbright, which is just night vision.
+    usage: /<command>
+    aliases:
+      - fb
+  team:
+    description: Team manager information.
+    usage: /<command>
+    aliases:
+      - party
+  kb:
+    description: Toggles the killboard.
+    usage: /<command>
+    permission: uhc.killboard
+    aliases:
+      - killboard
+  scatter:
+    description: Scatter players/teams.
+    usage: /<command>
+    permission: uhc.scatter
+    aliases:
+      - sca
+  sm:
+    description: Scenario manager command.
+    usage: /<command>
+    permission: uhc.sm
+    aliases:
+      - scenariomanager
+  scen:
+    description: View all enabled scenarios.
+    usage: /<command>
+    aliases:
+      - scenarios
+  pmc:
+    description: Send coordinates to teammates.
+    usage: /<command>
+    aliases:
+      - tl
+      - pmcoords
+      - teamloc
